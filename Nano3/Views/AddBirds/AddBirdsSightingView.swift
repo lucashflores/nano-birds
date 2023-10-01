@@ -11,7 +11,7 @@ import SwiftUI
 struct AddBirdsSightingView: View {
     @Environment(\.managedObjectContext) var moc
     @Environment(\.dismiss) var dismiss
-    @StateObject private var viewModel = AddBirdsViewModel()
+    @StateObject private var viewModel = AddBirdsSightingViewModel()
     @State var image: UIImage?
     @State var note = ""
     @State var species = "species"
@@ -121,6 +121,6 @@ struct AddBirdsSightingView: View {
 
 
 #Preview {
-    AddBirdsView()
+    AddBirdsSightingView()
         .preferredColorScheme(.dark)
 }
