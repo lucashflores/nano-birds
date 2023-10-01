@@ -11,6 +11,19 @@
 		C12D841F2AC39DD50034DA1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12D841E2AC39DD50034DA1D /* ContentView.swift */; };
 		C12D84212AC39DD60034DA1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C12D84202AC39DD60034DA1D /* Assets.xcassets */; };
 		C12D84242AC39DD60034DA1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C12D84232AC39DD60034DA1D /* Preview Assets.xcassets */; };
+		C16BECCB2AC5A79D004AE4BA /* AllBirdSightingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16BECCA2AC5A79D004AE4BA /* AllBirdSightingsView.swift */; };
+		C16BECCD2AC5A7AA004AE4BA /* AddBirdsSightingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16BECCC2AC5A7AA004AE4BA /* AddBirdsSightingViewModel.swift */; };
+		C19B98912AC4BC6200D07DE0 /* ImagePredictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19B98902AC4BC6200D07DE0 /* ImagePredictor.swift */; };
+		C1D462C62AC4493300AE0C52 /* SUIImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D462C52AC4493300AE0C52 /* SUIImagePickerView.swift */; };
+		C1D462CA2AC4671D00AE0C52 /* BirdModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C1D462C82AC4671D00AE0C52 /* BirdModel.xcdatamodeld */; };
+		C1D462CC2AC46C3F00AE0C52 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D462CB2AC46C3F00AE0C52 /* DataController.swift */; };
+		C1D462CE2AC46F6400AE0C52 /* UIImage+JPEG.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D462CD2AC46F6400AE0C52 /* UIImage+JPEG.swift */; };
+		C1FBE6BB2AC6385500D28BC4 /* ImageClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FBE6BA2AC6385500D28BC4 /* ImageClassifier.swift */; };
+		C1FBE6BF2AC650E100D28BC4 /* Color+CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FBE6BE2AC650E100D28BC4 /* Color+CustomColors.swift */; };
+		C1FBE6C72AC6FCFB00D28BC4 /* BirdsClassifier.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = C1FBE6C52AC6F6E600D28BC4 /* BirdsClassifier.mlpackage */; };
+		C1FBE6CA2AC702CB00D28BC4 /* AddBirdsSightingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FBE6C92AC702CB00D28BC4 /* AddBirdsSightingView.swift */; };
+		C1FBE6CE2ACA00D900D28BC4 /* BirdSightingDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FBE6CD2ACA00D900D28BC4 /* BirdSightingDetailsView.swift */; };
+		C1FBE6D02ACA01DB00D28BC4 /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FBE6CF2ACA01DB00D28BC4 /* DateUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +32,20 @@
 		C12D841E2AC39DD50034DA1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C12D84202AC39DD60034DA1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C12D84232AC39DD60034DA1D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C16BECCA2AC5A79D004AE4BA /* AllBirdSightingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllBirdSightingsView.swift; sourceTree = "<group>"; };
+		C16BECCC2AC5A7AA004AE4BA /* AddBirdsSightingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBirdsSightingViewModel.swift; sourceTree = "<group>"; };
+		C19B98902AC4BC6200D07DE0 /* ImagePredictor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePredictor.swift; sourceTree = "<group>"; };
+		C1D462C52AC4493300AE0C52 /* SUIImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUIImagePickerView.swift; sourceTree = "<group>"; };
+		C1D462C72AC460E600AE0C52 /* Nano3.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Nano3.entitlements; sourceTree = "<group>"; };
+		C1D462C92AC4671D00AE0C52 /* BirdRecord.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BirdRecord.xcdatamodel; sourceTree = "<group>"; };
+		C1D462CB2AC46C3F00AE0C52 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		C1D462CD2AC46F6400AE0C52 /* UIImage+JPEG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+JPEG.swift"; sourceTree = "<group>"; };
+		C1FBE6BA2AC6385500D28BC4 /* ImageClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClassifier.swift; sourceTree = "<group>"; };
+		C1FBE6BE2AC650E100D28BC4 /* Color+CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+CustomColors.swift"; sourceTree = "<group>"; };
+		C1FBE6C52AC6F6E600D28BC4 /* BirdsClassifier.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = BirdsClassifier.mlpackage; sourceTree = "<group>"; };
+		C1FBE6C92AC702CB00D28BC4 /* AddBirdsSightingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBirdsSightingView.swift; sourceTree = "<group>"; };
+		C1FBE6CD2ACA00D900D28BC4 /* BirdSightingDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirdSightingDetailsView.swift; sourceTree = "<group>"; };
+		C1FBE6CF2ACA01DB00D28BC4 /* DateUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +78,10 @@
 		C12D841B2AC39DD50034DA1D /* Nano3 */ = {
 			isa = PBXGroup;
 			children = (
+				C1FBE6C42AC6ECB200D28BC4 /* Data */,
+				C1FBE6C22AC6EC7D00D28BC4 /* Utils */,
+				C16BECC82AC5A75D004AE4BA /* Views */,
+				C1D462C72AC460E600AE0C52 /* Nano3.entitlements */,
 				C12D841C2AC39DD50034DA1D /* Nano3App.swift */,
 				C12D841E2AC39DD50034DA1D /* ContentView.swift */,
 				C12D84202AC39DD60034DA1D /* Assets.xcassets */,
@@ -65,6 +96,64 @@
 				C12D84232AC39DD60034DA1D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C16BECC82AC5A75D004AE4BA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C1FBE6C82AC702B800D28BC4 /* AddBirds */,
+				C1D462C52AC4493300AE0C52 /* SUIImagePickerView.swift */,
+				C16BECC92AC5A78F004AE4BA /* AllBirds */,
+				C1FBE6CD2ACA00D900D28BC4 /* BirdSightingDetailsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C16BECC92AC5A78F004AE4BA /* AllBirds */ = {
+			isa = PBXGroup;
+			children = (
+				C16BECCA2AC5A79D004AE4BA /* AllBirdSightingsView.swift */,
+			);
+			path = AllBirds;
+			sourceTree = "<group>";
+		};
+		C1FBE6C22AC6EC7D00D28BC4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C1FBE6C32AC6EC9600D28BC4 /* ImageClassifier */,
+				C1D462CD2AC46F6400AE0C52 /* UIImage+JPEG.swift */,
+				C1FBE6BE2AC650E100D28BC4 /* Color+CustomColors.swift */,
+				C1FBE6CF2ACA01DB00D28BC4 /* DateUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C1FBE6C32AC6EC9600D28BC4 /* ImageClassifier */ = {
+			isa = PBXGroup;
+			children = (
+				C1FBE6C52AC6F6E600D28BC4 /* BirdsClassifier.mlpackage */,
+				C1FBE6BA2AC6385500D28BC4 /* ImageClassifier.swift */,
+				C19B98902AC4BC6200D07DE0 /* ImagePredictor.swift */,
+			);
+			path = ImageClassifier;
+			sourceTree = "<group>";
+		};
+		C1FBE6C42AC6ECB200D28BC4 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C1D462CB2AC46C3F00AE0C52 /* DataController.swift */,
+				C1D462C82AC4671D00AE0C52 /* BirdModel.xcdatamodeld */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		C1FBE6C82AC702B800D28BC4 /* AddBirds */ = {
+			isa = PBXGroup;
+			children = (
+				C16BECCC2AC5A7AA004AE4BA /* AddBirdsSightingViewModel.swift */,
+				C1FBE6C92AC702CB00D28BC4 /* AddBirdsSightingView.swift */,
+			);
+			path = AddBirds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +226,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C16BECCB2AC5A79D004AE4BA /* AllBirdSightingsView.swift in Sources */,
+				C1FBE6C72AC6FCFB00D28BC4 /* BirdsClassifier.mlpackage in Sources */,
+				C1FBE6BF2AC650E100D28BC4 /* Color+CustomColors.swift in Sources */,
+				C1FBE6BB2AC6385500D28BC4 /* ImageClassifier.swift in Sources */,
+				C1D462CC2AC46C3F00AE0C52 /* DataController.swift in Sources */,
 				C12D841F2AC39DD50034DA1D /* ContentView.swift in Sources */,
+				C16BECCD2AC5A7AA004AE4BA /* AddBirdsSightingViewModel.swift in Sources */,
+				C1FBE6D02ACA01DB00D28BC4 /* DateUtils.swift in Sources */,
+				C1FBE6CE2ACA00D900D28BC4 /* BirdSightingDetailsView.swift in Sources */,
+				C1FBE6CA2AC702CB00D28BC4 /* AddBirdsSightingView.swift in Sources */,
 				C12D841D2AC39DD50034DA1D /* Nano3App.swift in Sources */,
+				C1D462CE2AC46F6400AE0C52 /* UIImage+JPEG.swift in Sources */,
+				C1D462C62AC4493300AE0C52 /* SUIImagePickerView.swift in Sources */,
+				C1D462CA2AC4671D00AE0C52 /* BirdModel.xcdatamodeld in Sources */,
+				C19B98912AC4BC6200D07DE0 /* ImagePredictor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,7 +297,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,7 +351,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -264,12 +366,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Nano3/Nano3.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Nano3/Preview Content\"";
 				DEVELOPMENT_TEAM = 7P886DJU8X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera so you can take cool bird pictures!";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -293,12 +397,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Nano3/Nano3.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Nano3/Preview Content\"";
 				DEVELOPMENT_TEAM = 7P886DJU8X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera so you can take cool bird pictures!";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,6 +445,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C1D462C82AC4671D00AE0C52 /* BirdModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C1D462C92AC4671D00AE0C52 /* BirdRecord.xcdatamodel */,
+			);
+			currentVersion = C1D462C92AC4671D00AE0C52 /* BirdRecord.xcdatamodel */;
+			path = BirdModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C12D84112AC39DD50034DA1D /* Project object */;
 }

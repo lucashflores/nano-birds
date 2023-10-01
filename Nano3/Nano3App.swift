@@ -6,12 +6,16 @@
 //
 
 import SwiftUI
+import CoreData
 
 @main
 struct Nano3App: App {
+    @StateObject private var dataController = DataController()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(\.managedObjectContext, dataController.container.viewContext)
         }
     }
 }
